@@ -4,6 +4,10 @@ import React from "react"
 // import Head from "next/head"
 //import { ThemeProvider } from 'theme-ui'
 
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css' // Import the CSS
+config.autoAddCss = false
+
 import Nav from '../pages/src/components/nav'
 // import Word from './Word'
 // import Header from './src/components/Header'
