@@ -5,8 +5,12 @@ import { useRouter } from 'next/router'
 import Link from "next/link"
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-
+import { faCoffee , faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import {  faFacebookF, faInstagram, faLinkedinIn , faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "animate.css"
+
+
 export default (props) => {
     const router = useRouter();
     const [collapsed, setCollapsed] = useState(true);
@@ -45,7 +49,7 @@ export default (props) => {
 
             </div>
             <div className="pho d-flex justify-content-center">
-            <img className="justify-content-center" src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="" class="image--cover" />
+            <img className="justify-content-center" src="/swanaPic.jpeg" alt="" class="image--cover" />
             </div>
             
             <div className="container" style={{top:"75px"}}>
@@ -53,52 +57,42 @@ export default (props) => {
                 Hello World, I'm <span className="play-text animate__animated animate__delay-2s animate__infinite	 animate__pulse ">Swana Simran Singh.</span> 
             </h2>
             <p className="text-center text-white main-page-intro">I am a final year Engineering student with a huge passion for programming!</p>
+            
             </div>
 
-            <section className="social-section">
-                <div class="wrapper">
-                    <div class="button">
-                        <div class="icon">
-                            <i class="fab fa-instagram"></i>
-                        </div>
-                        <span>Instagram</span>
-                    </div>
+            <section className="social-section text-white">
+               
+                    {/* <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a> */}
+                
+                <div class="social-menu">
+                    <ul>
+                        <li><Link href="https://www.linkedin.com/in/swananana/" className=" fab brand fa-linkedin-in p-3 m-3">
+                            <FontAwesomeIcon icon={faLinkedinIn } />
+                        </Link></li>
+                        <li><Link href="mailto: swanasimransingh.22it@licet.ac.in" className=" p-3 brand fa-linkedin-in fa-email m-3 fab " >
+                                <FontAwesomeIcon icon={faEnvelope} />
+                            </Link></li>
+                    <li><Link href="https://github.com/swananana" className=" p-3 m-3 brand fa-linkedin-in fab fa-linkedin-in">
+                        <FontAwesomeIcon icon={faGithub} />
+                    </Link></li>
+                    <li><Link href="https://www.instagram.com/swananana_/" className=" fab brand fa-linkedin-in fa-instagram p-3 m-3">
+                    <FontAwesomeIcon icon={faInstagram} />
+                     </Link></li>
 
-                    <div class="button">
-                        <div class="icon">
-                            <i class="fab fa-facebook-f"></i>
-                        </div>
-                        <span>Facebook</span>
-                    </div>
 
-                    <div class="button">
-                        <div class="icon">
-                            <i class="fab fa-twitter"></i>
-                        </div>
-                        <span>Twitter</span>
-                    </div>
-
-                    <div class="button">
-                        <div class="icon">
-                            <i class="fab fa-linkedin"></i>
-                        </div>
-                        <span>LinkedIn</span>
-                    </div>
-
-                    <div class="button">
-                        <div class="icon">
-                            <i class="fab fa-youtube"></i>
-                        </div>
-                        <span>YouTube</span>
-                    </div>
-
-                    <div class="button">
-                        <div class="icon">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <span>Github</span>
-                    </div>
+                        {/* <li><a href="https://www.instagram.com/imsanketbodke/" target="blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/sanket-bodake-995b5b205/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://codepen.io/sanketbodke"><i class="fab fa-codepen" target="blank"></i></a></li> */}
+                    </ul>
                 </div>
+                
+                
+                
+                
             </section>
             
         </body>
