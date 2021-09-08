@@ -50,64 +50,122 @@ export default (props) => {
         
         {/* Page Content */}
             
-            <div className="container justify-content-center top-space">
+            <div className="container justify-content-center mb-5 top-space">
                 <h2 className="text-center text-white main-page-intro" >
-                    About <span className="play-text animate__animated animate__delay-2s animate__infinite	 animate__pulse ">Me</span> 
+                    My <span className="play-text animate__animated animate__delay-2s animate__infinite	 animate__pulse ">Work</span> 
                 </h2>
-                <p className="text-center text-white main-page-intro">
-                That's 'Swan-aah' by the way. 
-                I'm an avid fiction reader who enjoys tragic endings.
-                When I'm not busy crying over sad romantic books,
-                I binge watch web series and try my hand at cooking (The food is edible, I swear). 
-                A student of engineering by day and a 'I-drown-my-gooddays-and-baddays-with-music' kind of person by night.
+        {/* xStack */}
+                <h5 className="text-center mt-2 text-white player-text" >
+                    xStack - Office Documentation Module
+                </h5>
+                <p className="text-center text-white linked">
+                As a part of xStack, the ERP suite for LICET, Developed the
+                bonafide and certificate generation module. A paperless,
+                automated, contact-free way to apply, receive bonafide and
+                generate bulk certificates.
+                </p>
+                <p className="text-center text-white linked">
+                PHP | Python | JavaScript | HTML5 | CSS3 | Boostrap4 | jQuery | AJAX | MariaDB
                 </p>
 
-                <p className="text-center text-white main-page-intro">
-                I am a software engineer with a great experience in working with cutting-edge tech, 
-                I have an OCD to write visually pleasing code. 
-                The thrill of working in a new domain and the satisfaction when the job is done is what keeps me going.  
-                I have a newly found
-                passion for competitive programming. 
-                </p>
-
-                <p className="text-center text-white mb-3 main-page-intro">
-                Being multi-lingual might just be my slight flex, so put up with me while I try my mediocre French, 
-                ludicruous Tamil and my almost fluent English. If I’m not sleeping, 
-                I’d be writing code for some random website just like the one you’re staring at. I love pasta, 
-                chocolates and long conversations about novels.
-                </p>
-
-            {/* Horizontal Line */}
+        {/* Horizontal Line */}
 
             <hr className="text-white text-center justify-content-center m-auto mb-4" style={{width:"15rem",alignItems:"center", justifyContent:"center !important"}} />    
-            
-            {/* Technologies */}
-                <h3 className="text-center text-white mt-4 main-page-intro" style={{fontSize:"5rem !important"}} >
-                    Core <span className="play-text " style={{fontSize:"5rem !important"}}>Competencies</span> 
-                </h3>
-                <h3 className="text-left text-white text-bold player-text" >
-                    Languages 
-                </h3>
-                <p className="text-center text-white player-text">
-                Python, PHP, JavaScript, HTML5, CSS3/SCSS
+        {/* INTACTO */}
+            <h5 className="text-center mt-2 text-white player-text" >
+                INTACTO
+                </h5>
+                <p className="text-center text-white linked">
+                Designed and Developed the platform and organized a virtual
+                treasure hunt for 150 participants. The features included
+                authentication, timers, checks at every level and a score tracker.
+                </p>
+                <p className="text-center text-white linked">
+                PHP | JavaScript | AJAX | HTML5 | CSS3 | Boostrap4 | MySQL
                 </p>
 
-                <h3 className="text-left text-white player-text" >
-                    Frameworks/ <span className="played-text " >Libraries</span>
-                </h3>
-                <p className="text-center text-white player-text">
-                Boostrap, Tailwind CSS, Theme-UI, React.js, Next.js,
-                jQuery
+        {/* Horizontal Line */}
+
+            <hr className="text-white text-center justify-content-center m-auto mb-4" style={{width:"15rem",alignItems:"center", justifyContent:"center !important"}} />    
+        
+
+        {/* Swana Simran */}
+        <h5 className="text-center mt-2 text-white player-text" >
+                Swana Simran
+                </h5>
+                <p className="text-center text-white linked">
+                Minimal Personal Portfolio
+                </p>
+                <p className="text-center text-white linked">
+                Next.js | reactstrap | Boostrap | theme-ui 
                 </p>
 
-                <h3 className="text-left text-white player-text" >
-                    Databases & <span className="played-text " >Dev Tools</span>
-                </h3>
-                <p className="text-center text-white player-text">
-                MySQL, MariaDB, Git, GitHub, JIRA, npm, AJAX, ArduinoIDE, Canva, Framer
+        {/* Horizontal Line */}
+
+            <hr className="text-white text-center justify-content-center m-auto mb-4" style={{width:"15rem",alignItems:"center", justifyContent:"center !important"}} />    
+
+        {/* Swananana */}
+        <h5 className="text-center mt-2 text-white player-text" >
+            <Link href="https://swananana.github.io/swananana/">
+            <a href="https://swananana.github.io/swananana/" className="text-white" style={{textDecoration:"none"}}>Swananana</a>
+            </Link>
+                </h5>
+                <p className="text-center text-white linked">
+                Personal fun website
+                </p>
+                <p className="text-center text-white linked">
+                HTML | CSS3 | Boostrap | JavaScript
                 </p>
 
-            </div>
+        {/* Horizontal Line */}
+
+            <hr className="text-white text-center justify-content-center m-auto mb-4" style={{width:"15rem",alignItems:"center", justifyContent:"center !important"}} />    
+        
+        {/* UV-BDZ */}
+            <h5 className="text-center mt-2 text-white player-text" >
+                UV - BioHazard Disinfecting Zone
+                </h5>
+                <p className="text-center text-white linked">
+                Built a compact and portable disinfecting system using UV-C
+                technology.
+
+                </p>
+                <p className="text-center text-white linked">
+                UV-C | Sensors | Circuitory 
+                </p>
+
+        {/* Horizontal Line */}
+
+            <hr className="text-white text-center justify-content-center m-auto mb-4" style={{width:"15rem",alignItems:"center", justifyContent:"center !important"}} />    
+           
+        {/* Growvy */}
+        <h5 className="text-center mt-2 text-white player-text" >
+                Growvy
+                </h5>
+                <p className="text-center text-white linked">
+                Built an automated hydroponic indoor plant cultivation system for
+                precision farming and monitoring. 
+                </p>
+                <p className="text-center text-white linked">
+                UV-C | Sensors | Circuitory | Embedded C
+                </p>
+
+        {/* Horizontal Line */}
+
+            <hr className="text-white text-center justify-content-center m-auto mb-4" style={{width:"15rem",alignItems:"center", justifyContent:"center !important"}} />    
+        
+        {/* On the fly */}
+        <h5 className="text-center mt-2 text-white player-text" >
+                On the fly
+                </h5>
+                <p className="text-center text-white linked">
+                Built a voice-controlled drone inclusive of hardware integration for
+                delivery and intruder detection.
+                </p>
+                <p className="text-center text-white linked">
+                Arduino | NodeMCU | IFTTT | Blynk | Embedded C
+                </p>        
+        </div>
         
         {/* Horizontal Line */}
 

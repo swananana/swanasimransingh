@@ -104,7 +104,8 @@ export default (props) => {
                     Databases & <span className="played-text " >Dev Tools</span>
                 </h3>
                 <p className="text-center text-white player-text">
-                MySQL, MariaDB, Git, GitHub, JIRA, npm, AJAX, ArduinoIDE, Canva, Framer
+                MySQL, MariaDB, Git, GitHub, JIRA, npm, AJAX, ArduinoIDE, Canva, Framer. Figma,
+                 Visual Studio Code
                 </p>
 
             </div>
