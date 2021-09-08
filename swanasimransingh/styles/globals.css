@@ -18,3 +18,10 @@ a {
 .home-bg{
   background-image: url(../../Black\ and\ White\ Classy\ &\ Dark\ Refined\ Religious\ \ Spiritual\ Desktop\ Wallpaper.png);
 }
+
+
+@media only screen and (min-width: 1000px) {
+  .top-space{
+    width: 30rem !important;
+  }
+}

@@ -49,41 +49,72 @@ export default (props) => {
             </div>
         
         {/* Page Content */}
-            <div className="pho d-flex justify-content-center">
-            <img className="justify-content-center" src="/swanaPic.jpeg" alt="" class="image--cover" />
-            </div>
             
-            <div className="container" style={{top:"75px"}}>
-            <h2 className="text-center text-white main-page-intro" >
-                Hello World, I'm <span className="play-text animate__animated animate__delay-2s animate__infinite	 animate__pulse ">Swana Simran Singh.</span> 
-            </h2>
-            <p className="text-center text-white main-page-intro">Student |  Developer |  Engineer</p>
-            </div>
-        {/* Links to different pages */}
-        <div className="linked mb-3 d-md-flex align-items-center justify-content-center  text-white text-center">
-            <Link href="/about" className="text-white " style={{color:"white !important"}}>
-                <a href="/about" className="text-white m-2 p-2" style={{textDecoration:"none"}}> About Me</a>
-            </Link>
+            <div className="container justify-content-center top-space">
+                <h2 className="text-center text-white main-page-intro" >
+                    About <span className="play-text animate__animated animate__delay-2s animate__infinite	 animate__pulse ">Me</span> 
+                </h2>
+                <p className="text-center text-white main-page-intro">
+                That's 'Swan-aah' by the way. 
+                I'm an avid fiction reader who enjoys tragic endings.
+                When I'm not busy crying over sad romantic books,
+                I binge watch web series and try my hand at cooking (The food is edible, I swear). 
+                A student of engineering by day and a 'I-drown-my-gooddays-and-baddays-with-music' kind of person by night.
+                </p>
 
-            <Link href="/projects" className="text-white m-2 p-2" color="white" style={{color:"white !important"}}>
-                <a href="/projects" className="text-white m-2 p-2" style={{textDecoration:"none"}}> Projects</a>
-            </Link>
+                <p className="text-center text-white main-page-intro">
+                I am a software engineer with a great experience in working with cutting-edge tech, 
+                I have an OCD to write visually pleasing code. 
+                The thrill of working in a new domain and the satisfaction when the job is done is what keeps me going.  
+                I have a newly found
+                passion for competitive programming. 
+                </p>
 
-            <Link href="/about" className="text-white " color="white" style={{color:"white !important"}}>
-                <a href="/about" className="text-white m-2 p-2" style={{textDecoration:"none"}}> Achievements </a>
-            </Link>
+                <p className="text-center text-white mb-3 main-page-intro">
+                Being multi-lingual might just be my slight flex, so put up with me while I try my mediocre French, 
+                ludicruous Tamil and my almost fluent English. If I’m not sleeping, 
+                I’d be writing code for some random website just like the one you’re staring at. I love pasta, 
+                chocolates and long conversations about novels.
+                </p>
 
-            <Link href="/about" className="text-white " color="white" style={{color:"white !important"}}>
-                <a href="/about" className="text-white m-2 p-2" style={{textDecoration:"none"}}> Education </a>
-            </Link>
+            {/* Horizontal Line */}
+
+            <hr className="text-white text-center justify-content-center m-auto mb-4" style={{width:"15rem",alignItems:"center", justifyContent:"center !important"}} />    
             
-        </div>
+            {/* Technologies */}
+                <h3 className="text-center text-white mt-4 main-page-intro" style={{fontSize:"5rem !important"}} >
+                    Core <span className="play-text " style={{fontSize:"5rem !important"}}>Competencies</span> 
+                </h3>
+                <h3 className="text-left text-white text-bold player-text" >
+                    Languages 
+                </h3>
+                <p className="text-center text-white player-text">
+                Python, PHP, JavaScript, HTML5, CSS3/SCSS
+                </p>
+
+                <h3 className="text-left text-white player-text" >
+                    Frameworks/ <span className="played-text " >Libraries</span>
+                </h3>
+                <p className="text-center text-white player-text">
+                Boostrap, Tailwind CSS, Theme-UI, React.js, Next.js,
+                jQuery
+                </p>
+
+                <h3 className="text-left text-white player-text" >
+                    Databases & <span className="played-text " >Dev Tools</span>
+                </h3>
+                <p className="text-center text-white player-text">
+                MySQL, MariaDB, Git, GitHub, JIRA, npm, AJAX, ArduinoIDE, Canva, Framer
+                </p>
+
+            </div>
+        
         {/* Horizontal Line */}
 
             <hr className="text-white text-center justify-content-center m-auto mb-4" style={{width:"15rem",alignItems:"center", justifyContent:"center !important"}} />
            
         {/*Social Media Section  */}
-            <section className="social-section text-white">       
+            <section className="social-section text-white mb-5">       
                 <div class="social-menu">
                     <ul>
                         <li><Link href="https://www.linkedin.com/in/swananana/" className=" fab brand-1 fa-linkedin-in p-3 m-3">
