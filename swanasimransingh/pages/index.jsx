@@ -37,12 +37,12 @@ export default (props) => {
                     <NavItem className="ms-auto text-white" style={{color:"white"}} >
                     <NavLink className="text-white" href="https://github.com/reactstrap/reactstrap">Projects</NavLink>
                     </NavItem>
-                    <NavItem className="ms-auto text-white" style={{color:"white"}} >
+                    {/* <NavItem className="ms-auto text-white" style={{color:"white"}} >
                     <NavLink className="text-white" href="https://github.com/reactstrap/reactstrap">Achievements</NavLink>
                     </NavItem>
                     <NavItem className="ms-auto text-white" style={{color:"white"}} >
                     <NavLink className="text-white" href="https://github.com/reactstrap/reactstrap">Education</NavLink>
-                    </NavItem>
+                    </NavItem> */}
                 </Nav>
                 </Collapse>
             </Navbar>
@@ -69,13 +69,13 @@ export default (props) => {
                 <a href="/projects" className="text-white m-2 p-2" style={{textDecoration:"none"}}> Projects</a>
             </Link>
 
-            <Link href="/about" className="text-white " color="white" style={{color:"white !important"}}>
+            {/* <Link href="/about" className="text-white " color="white" style={{color:"white !important"}}>
                 <a href="/about" className="text-white m-2 p-2" style={{textDecoration:"none"}}> Achievements </a>
             </Link>
 
             <Link href="/about" className="text-white " color="white" style={{color:"white !important"}}>
                 <a href="/about" className="text-white m-2 p-2" style={{textDecoration:"none"}}> Education </a>
-            </Link>
+            </Link> */}
             
         </div>
         {/* Horizontal Line */}

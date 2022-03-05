@@ -37,12 +37,12 @@ export default (props) => {
                     <NavItem className="ms-auto text-white" style={{color:"white"}} >
                     <NavLink className="text-white" href="https://github.com/reactstrap/reactstrap">Projects</NavLink>
                     </NavItem>
-                    <NavItem className="ms-auto text-white" style={{color:"white"}} >
+                    {/* <NavItem className="ms-auto text-white" style={{color:"white"}} >
                     <NavLink className="text-white" href="https://github.com/reactstrap/reactstrap">Achievements</NavLink>
                     </NavItem>
                     <NavItem className="ms-auto text-white" style={{color:"white"}} >
                     <NavLink className="text-white" href="https://github.com/reactstrap/reactstrap">Education</NavLink>
-                    </NavItem>
+                    </NavItem> */}
                 </Nav>
                 </Collapse>
             </Navbar>
