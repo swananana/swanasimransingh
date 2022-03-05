@@ -32,11 +32,12 @@ export default (props) => {
                 <Collapse color="white" className="justify-content-end" isOpen={!collapsed} navbar>
                 <Nav className="mr-3 justify-content-end container-fluid"  navbar>
                     <NavItem className="ms-auto text-white" style={{color:"white"}} >
-                    <NavLink className="text-white" href="/components/">About me</NavLink>
+                    <NavLink className="text-white" href="/">Home</NavLink>
                     </NavItem>
                     <NavItem className="ms-auto text-white" style={{color:"white"}} >
-                    <NavLink className="text-white" href="https://github.com/reactstrap/reactstrap">Projects</NavLink>
+                    <NavLink className="text-white" href="/about">About me</NavLink>
                     </NavItem>
+                    
                     {/* <NavItem className="ms-auto text-white" style={{color:"white"}} >
                     <NavLink className="text-white" href="https://github.com/reactstrap/reactstrap">Achievements</NavLink>
                     </NavItem>
@@ -175,7 +176,7 @@ export default (props) => {
             <section className="social-section text-white mb-5">       
                 <div class="social-menu">
                     <ul>
-                        <li><Link href="https://www.linkedin.com/in/swananana/" className=" fab brand-1 fa-linkedin-in p-3 m-3">
+                        <li><Link href="https://www.linkedin.com/in/swanasimran/" className=" fab brand-1 fa-linkedin-in p-3 m-3">
                             <FontAwesomeIcon icon={faLinkedinIn } />
                         </Link></li>
                         <li><Link href="mailto: swanasimransingh.22it@licet.ac.in" className=" p-3 brand-2 fa-linkedin-in fa-email m-3 fab " >
